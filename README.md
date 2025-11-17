@@ -15,7 +15,6 @@ A simple ASP.NET MVC application that performs CRUD (Create, Read, Update, Delet
 - ASP.NET MVC 5
 - C#
 - SQL Server
-- Entity Framework
 - jQuery AJAX
 - Bootstrap
 
