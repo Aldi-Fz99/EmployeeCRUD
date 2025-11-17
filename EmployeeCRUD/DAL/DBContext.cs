@@ -10,7 +10,7 @@ namespace EmployeeCRUD.DAL
         // Funtion to get connection string from Web.config
         private void Connection() 
         {
-            string constring = ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString();
+            string constring = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
                con = new SqlConnection(constring);
         }
         // Return SQL connection whenever needed
