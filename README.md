@@ -21,3 +21,16 @@ A simple ASP.NET MVC application that performs CRUD (Create, Read, Update, Delet
 
 ## Database
 The database script is included in
+
+## Web.config – Connection Strings
+
+Pastikan bagian `connectionStrings` pada **Web.config** sesuai dengan nama database dan server SQL Server yang kamu gunakan.
+
+Contoh konfigurasi:
+
+```xml
+<connectionStrings>
+  <add name="EmployeeDB"
+       connectionString="Data Source=HAPPYBOY\\SQLEXPRESS;Initial Catalog=EmployeeDB;Integrated Security=True"
+       providerName="System.Data.SqlClient" />
+</connectionStrings>
