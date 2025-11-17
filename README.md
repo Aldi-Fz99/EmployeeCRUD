@@ -30,7 +30,7 @@ Contoh konfigurasi:
 
 ```xml
 <connectionStrings>
-  <add name="EmployeeDB"
-       connectionString="Data Source=HAPPYBOY\\SQLEXPRESS;Initial Catalog=EmployeeDB;Integrated Security=True"
+  <add name="DefaultConnection"
+       connectionString="Data Source=NAMASERVER\\SQLEXPRESS;Initial Catalog=EmployeeDB;Integrated Security=True"
        providerName="System.Data.SqlClient" />
 </connectionStrings>
